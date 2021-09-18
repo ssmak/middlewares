@@ -6,7 +6,7 @@ Stack of middlewares run on Docker by using docker-compose.
 | Name | Version | Port | Volume | Remark |
 | ---- | ------- | ---- | ------ | ------ |
 | ZooKeeper | 3.7.0 | 2181 | zookeeper:/data, zookeeper_log:/datalog | |
-| ZooNavigator | 4.2.16 | 1812 | | |
+| ZooNavigator | 1.1.0 | 1812 | | |
 | Kafka | 2.8.0 | 9092 | kafka:/bitnami/kafka | Kafka required ZooKeeper to work. |
 | KafkaManager | 3.0.0.5-2 | 2909 | |
 | Etcd | 3.5.0 | 2379, 2380 | etcd:/opt/bitnami | |
